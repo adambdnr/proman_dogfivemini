@@ -1,0 +1,118 @@
+/*******************************************
+GENERAL
+********************************************/
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+
+div div a {
+   color: white;
+   padding-right: 55px;
+   font-size: 20px;
+}
+
+
+
+/******************************************
+HEADER - NAVIGATION BAR
+*******************************************/
+
+h1 {
+    padding-left: 10px;
+}
+
+.navbar-custom{
+    background-color: crimson;
+
+}
+.navbar-brand a:hover{
+    -webkit-transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*******************************************
+BOXES OF BOARDS, LISTS
+********************************************/
+
+.board {
+    display: inline-block;
+    background-color: #1E90FF;
+    padding: 20px;
+    width: 285px;
+    height:100px;
+    border-radius: 25px;
+    border: 10px solid white;
+    -webkit-transition: 0.5s;
+
+
+
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.board:hover {
+    background-color: #1462AD;
+}
+
+
+/******************************************
+INPUT FORM
+*******************************************/
+
+#add-board-title,
+#new-list-title {
+    display: inline-block;
+    background-color: #DFDEDE;
+    width: 285px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid white;
+
+}
+
+input {
+    background-color: #EEEBEB;
+}
+
+input[type="text"] {
+
+    border: none;
+    border-radius: 4px;
+    background-color: #EEEBEB;
+    outline-width: 0;
+    height: 27px;
+    border-radius: 4px;
+
+}
+
+/*******************************************
+BUTTON IN INPUT FORM
+********************************************/
+
+#button {
+    background-color: #FFB300; /* Yellow */
+    border: none;
+    color: white;
+    width: 60px;
+    padding-top: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+
+
+}
+
+#button:hover {
+    background-color: #66FF00;
+}
