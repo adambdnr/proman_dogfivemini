@@ -1,4 +1,5 @@
+from peewee import *
 from basemodel import BaseModel
 
 class Board(BaseModel):
-    pass
+    title = CharField(unique=True)
