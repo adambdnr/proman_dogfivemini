@@ -1,2 +1,7 @@
+from peewee import *
+
+
 class BaseModel(Model):
-    pass
+
+    class Meta:
+        database = db
